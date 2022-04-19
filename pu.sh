@@ -5,7 +5,7 @@ echo
 echo "Enter commit message: "
 read cmtMsg
 git commit -m "$cmtMsg"
-echo "<><><><><><><><><><><>”
+echo "<><><><><><><><><><><>"
 echo
 echo “Push to which branch?”
 read pushBranch
