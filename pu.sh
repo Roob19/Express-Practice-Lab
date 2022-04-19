@@ -10,8 +10,8 @@ echo
 echo “Push to which branch?”
 read pushBranch
 git push -u origin $pushBranch
-echo "<><><><><><><><><><><>”
+echo "<><><><><><><><><><><>"
 echo
-echo "Push complete :) "
+echo "Push complete"
 echo
 echo "<><><><><><><><><><><>”
