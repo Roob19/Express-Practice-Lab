@@ -3,9 +3,11 @@
     <ul>
     <% dreamCars.forEach(function(car) { %>
         <li>
-        <%= car.dreamCars %>
-            ⛽️ 
-        <%= [car.year + " " + car.model + " " + ': not yet 😆'] %>
+        <%= car.year %>
+            -
+        <%= car.model %> 
+            ⛽️
+        <%= car.year <= 1979 ? ' not yet 😆' : 'YOU WISH!' %>
         </li>
     <% }); %>
     </ul>
