@@ -1,0 +1,12 @@
+<body>
+    <h1>Dream Cars</h1>
+    <ul>
+    <% dreamCars.forEach(function(car) { %>
+        <li>
+        <%= car.dreamCars %>
+            ⛽️ 
+        <%= [car.year + " " + car.model + " " + ': not yet 😆'] %>
+        </li>
+    <% }); %>
+    </ul>
+</body>
